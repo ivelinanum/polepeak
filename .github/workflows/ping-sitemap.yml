@@ -1,0 +1,13 @@
+name: Ping Search Engines
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs automatically every day at midnight
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify Google
+        run: |
+          curl -I "https://www.google.com/ping?sitemap=https://yourwebsite.com/sitemap.xml"
