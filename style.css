@@ -44,13 +44,15 @@ a{color:var(--forest);}
 .nav{
   display:flex;align-items:center;justify-content:space-between;
   max-width:var(--maxw);margin:0 auto;padding:22px 24px;
+.brand{
+  display:inline-block;
+  width:150px;
+  height:38px;
+  background:url("/images/polepeak-logo.svg") left center / contain no-repeat;
+  text-indent:-9999px;   /* pushes the text off-screen, keeps it for screen readers */
+  overflow:hidden;
+  white-space:nowrap;
 }
-.brand{font-family:"Fraunces",serif;font-weight:600;font-size:20px;color:var(--forest);text-decoration:none;letter-spacing:0.01em;}
-.brand span{color:var(--wood);}
-.nav-links{display:flex;gap:22px;font-size:15px;}
-.nav-links a{color:var(--ink-soft);text-decoration:none;}
-.nav-links a:hover{color:var(--forest);}
-
 /* breadcrumbs */
 .crumbs{max-width:var(--maxw);margin:0 auto;padding:6px 24px 0;font-size:13px;color:var(--ink-soft);}
 .crumbs a{color:var(--ink-soft);text-decoration:none;}
