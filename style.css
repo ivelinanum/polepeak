@@ -43,7 +43,7 @@ a{color:var(--forest);}
 /* nav */
 .nav{
   display:flex;align-items:center;justify-content:space-between;
-  max-width:var(--maxw);margin:0 auto;padding:22px 24px;
+  max-width:var(--maxw);margin:0 auto;padding:22px 24px;}
 .brand{
   display:inline-block;
   width:38px;
