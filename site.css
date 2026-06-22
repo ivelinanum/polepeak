@@ -51,16 +51,17 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 .nav-toggle{display:none;background:none;border:none;color:var(--forest);font-size:22px;cursor:pointer}
 
 .pole-band{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 80px 40px;
+  background:var(--forest-deep);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:40px;
 }
 .pole-band-art{
-  width: 100%;
-  max-width: 560px;
-  height: auto;
-  display: block;
+  width:100%;
+  max-width:520px;
+  height:auto;
+  display:block;
 }
 
 /* blog header */
